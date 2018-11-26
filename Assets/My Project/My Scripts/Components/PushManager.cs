@@ -10,7 +10,7 @@ public class PushManager : AppElement {
 
         OneSignal.SetLogLevel(OneSignal.LOG_LEVEL.VERBOSE, OneSignal.LOG_LEVEL.NONE);
 
-        OneSignal.StartInit("0f923329-7055-4e26-b970-183b55963329")
+        OneSignal.StartInit("---")
             .HandleNotificationReceived(HandleNotificationReceived)
             .HandleNotificationOpened(HandleNotificationOpened)
                  .EndInit();
